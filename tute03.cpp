@@ -12,7 +12,7 @@ int main()
     long fac;
 
     cout << "Enter a Number : ";
-    cin <<no;
+    cin >> no;
 
     fac = 1;
     for (int r=no; r >= 1; r--) {

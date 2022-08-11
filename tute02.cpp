@@ -19,11 +19,11 @@ int main()
    double salary, netSalary;
    int etype, otHrs, otRate;
    cout << "Enter Employee Type : ";
-   cin << etype;
+   cin >> etype;
    cout << "Enter Salary  : ";
-   cin << salary;
+   cin >> salary;
    cout << "Enter OtHrs : ";
-   cin << otHrs; 
+   cin >> otHrs; 
    
    switch (etype) {
       case 1 :

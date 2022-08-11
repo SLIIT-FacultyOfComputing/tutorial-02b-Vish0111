@@ -24,7 +24,7 @@ int main() {
   cout << "Enter a value for r ";
   cin >> r;
   cout << "nCr = ";
-  cout << nCr(n,r);
+  nCr = n!/ r!(n−r)!
   cout << std::endl;
   return 0;
 }
